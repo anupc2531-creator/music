@@ -12,7 +12,7 @@ from telegram.ext import (
     ContextTypes
 )
 
-TOKEN = os.getenv("8902670600:AAHwAIFfcrVPaYsv5uB5N6kBRXku3UHu3oY")
+TOKEN = os.getenv("TOKEN")
 
 songs = {}
 votes = {}
@@ -97,7 +97,7 @@ async def queue(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     if not TOKEN:
-        raise RuntimeError("8902670600:AAHwAIFfcrVPaYsv5uB5N6kBRXku3UHu3oY")
+        raise RuntimeError("TOKEN environment variable is missing")
 
     app = Application.builder().token(TOKEN).build()
 
