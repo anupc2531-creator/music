@@ -1,5 +1,5 @@
+python-telegram-bot
 pyTelegramBotAPI
 psutil
 requests
 flask
-python-teligram-bot
