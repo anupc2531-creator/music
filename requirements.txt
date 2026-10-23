@@ -1,4 +1,4 @@
-pyTeligramBotAPI
+pyTelegramBotAPI
 psutil
-reuests
+requests
 flask
