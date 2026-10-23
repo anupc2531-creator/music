@@ -12,7 +12,7 @@ from telegram.ext import (
     ContextTypes
 )
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8902670600:AAHwAIFfcrVPaYsv5uB5N6kBRXku3UHu3oY")
 
 songs = {}
 votes = {}
