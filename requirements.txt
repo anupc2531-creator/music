@@ -1,0 +1,4 @@
+pyTeligramBotAPI
+psutil
+reuests
+flask
